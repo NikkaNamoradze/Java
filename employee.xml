@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<employees>
+    <employee>
+        <name>Kanistrate</name>
+        <email>Kanistrate@btu.com</email>
+    </employee>
+    <employee>
+        <name>Gaiozi</name>
+        <email>Gaiozi@btu.com</email>
+    </employee>
+</employees>
