@@ -39,7 +39,7 @@ public class Department {
             return false;
         //დავკასტოთ მიღებული ობიექტი როგორც დეპარტმანეტის კლასი რატა წვდომა მივიღოთ მის პარამეტრებზე
         Department that = (Department) obj;
-        // შევამოწმოთ თითოეული პარამეტრი უფროს თუ არა ეს ორიექტები ერთმანეთს
+        // შევამოწმოთ თითოეული პარამეტრი უდრის თუ არა ეს ობიექტები ერთმანეთს
         return id == that.id &&
                 name.equals(that.name) &&
                 location.equals(that.location);
@@ -56,7 +56,7 @@ public class Department {
         System.out.println("Department 2: " + dept2);
         System.out.println("Department 3: " + dept3);
 
-        //დავბეჭდოთ შედარებული ობიექტები უტრის თუ არა ერთმანეთს
+        //დავბეჭდოთ შედარებული ობიექტები უდრის თუ არა ერთმანეთს
         System.out.println("Department 1 == Department 2: " + dept1.equals(dept2));
         System.out.println("Department 1 == Department 3: " + dept1.equals(dept3));
     }
